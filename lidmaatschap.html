@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <title>Windsurfvereniging Zegerplas</title>
+</head>
+
+<body class="container1">
+    <div class="Zegerplas"></div>
+    <header class="header">
+        <h1> Windsurfvereniging Zegerplas</h1>
+        <h2>since 1979</h2>
+    </header>
+
+    <nav class="navigation">
+        <div class="home"><a href="/Eindopdracht HTML/index.html">Home</a></div>
+        <div class="lesentraining"><a href="/Eindopdracht HTML/Lesentraining.html">Les & training</a></div>
+        <div class="nieuws"><a href="/Eindopdracht HTML/Nieuws.html">Nieuws</a></div>
+        <div class="contact"><a href="/Eindopdracht HTML/Contact.html">Contact</a></div>
+    </nav>
+    <main class="main">
+        <article class="article2">
+            <h3>Lidmaatschap</h3><br>
+            <p>Het verenigingsjaar loopt van 1 januari t/m 31 december.</p>
+            <p>Lidmaatschap is inclusief:</p>
+            <ul>
+                <li>Gebruikmaking van kleedruimte en douche</li>
+                <li>6x per jaar het clubblad</li>
+                <li>Clubtraining op woensdagavond</li>
+                <li>Gratis deelname aan clubwedstrijden</li>
+                <li>Deelname aan overige clubactiviteiten.</li>
+            </ul>
+            <p><strong>Opzegging dient schriftelijk te geschieden voor 1 november van het lopende kalenderjaar.</strong>
+            </p>
+        </article>
+    </main>
+    <aside class="aside">
+        <h3>Kosten</h3><br>
+        <p><strong>Contributie</strong><br>
+            Jeugdleden (tot 16 jaar) €35,- per jaar.
+            Overige leden €50,- per jaar.
+            Gezinsdonateurschap €25,- per jaar.
+        </p>
+        <p><strong>Plankenberging</strong><br>
+            Alleen voor leden €60,- per jaar.</p>
+    </aside>
+    <form class="form">
+        <div>
+            <form name="contact" method="POST" data-netlify="true">
+                <h1>Ja, ik word lid!</h1>
+                <label for="type lidmaatschap">Type lidmaatschap:</label><br>
+                <input type="radio" id="jeugd" name="lid" value="jeugd">
+                <label for="jeugd">Jeugd</label>
+                <input type="radio" id="volwassen" name="lid" value="volwassen">
+                <label for="volwassen">Volwassen</label>
+                <input type="radio" id="donateur" name="lid" value="donateur">
+                <label for="donateur">Donateur</label><br><br>
+
+                <label for="ligplek">Ik wil een ligplek huren:</label><br>
+                <input type="radio" id="keuze1" name="ja" value="ja">
+                <label for="ja">Ja</label>
+                <input type="radio" id="keuze2" name="nee" value="nee">
+                <label for="nee">nee</label><br><br>
+
+                <label for="voornaam">Voornaam</label><br>
+                <input type="text" id="voornaam" name="voornaam" placeholder="Je voornaam.."><br>
+
+                <label for="achternaam">Achternaam</label><br>
+                <input type="text" id="achternaam" name="achternaam" placeholder="Je achternaam.."><br>
+
+                <label for="adres">Adres</label><br>
+                <input type="text" id="Adres" name="Adres" placeholder="Je adres (straatnaam + nummer)"><br>
+
+                <label for="adres">Postcode</label><br>
+                <input type="text" id="postcode" name="adres" placeholder="Je postcode" size="20%"><br>
+
+                <label for="adres">Woonplaats</label><br>
+                <input type="text" id="woonplaats" name="adres" placeholder="Je woonplaats"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Je e-mail"><br>
+
+                <label for="telefoon">Telefoon</label><br>
+                <input type="phone" id="telefoon" name="telefoon" placeholder="Je telefoonnummer"><br>
+
+                <label for="geboortedatum">Geboortedatum</label><br>
+                <input type="date" id="geboortedatum" name="geboortedatum"><br><br>
+
+                <input type="checkbox" id="akkoord" name="akkoord" value="akkoord" required>
+                <label for="akkoord"> Door verzenden van dit formuleer ga ik akkoord met de algemene voorwaarden van
+                    Windsurf Vereniging Zegerplas</label><br><br>
+
+                <input class="button2" name="verzenden" type="submit" />
+            </form>
+        </div>
+    </form>
+    <footer class="footer">
+        <a href="https://nl-nl.facebook.com/wsvzegerplas" target="blank">
+            <img height="20" src="Images/facebook image.jpg">
+        </a>
+        <a href="https://twitter.com/wsvzegerplas" target="blank">
+            <img width="20" height="20" src="Images/twitter image.jpg">
+        </a>
+        <a href="https://www.instagram.com/wsvzegerplas/" target="blank">
+            <img width="20" height="20" src="Images/insta image.jpg">
+        </a>
+    </footer>
+</body>
+
+</html>

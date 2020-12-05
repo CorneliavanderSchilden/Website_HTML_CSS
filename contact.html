@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <title>Windsurfvereniging Zegerplas</title>
+</head>
+
+<body class="container1">
+    <div class="Zegerplas"></div>
+    <header class="header">
+        <h1> Windsurfvereniging Zegerplas</h1>
+        <h2>since 1979</h2>
+    </header>
+
+    <nav class="navigation">
+        <div class="home"><a href="/Eindopdracht HTML/index.html">Home</a></div>
+        <div class="lid"><a href="/Eindopdracht HTML/lidmaatschap.html">Wordt lid</a></div>
+        <div class="lesentraining"><a href="/Eindopdracht HTML/Lesentraining.html">Les & training</a></div>
+        <div class="nieuws"><a href="/Eindopdracht HTML/Nieuws.html">Nieuws</a></div>
+    </nav>
+    <main class="main">
+        <form class="form1">
+            <div>
+                <form name="contact" method="POST" data-netlify="true">
+                    <h1>Contactformulier</h1>
+                    <label for="type lidmaatschap">Ik heb een vraag over:</label><br>
+                    <input type="radio" id="lidmaatschap" name="contact" value="lidmaatschap">
+                    <label for="lidmaatschap">Lidmaatschap</label><br>
+                    <input type="radio" id="ligplek" name="contact" value="ligplek">
+                    <label for="ligplek">Ligplek</label><br>
+                    <input type="radio" id="surfles" name="contact" value="surfles">
+                    <label for="surfles">Surfles</label><br>
+                    <input type="radio" id="training" name="contact" value="training">
+                    <label for="training">Training</label><br>
+                    <input type="radio" id="wedstrijden" name="contact" value="wedstrijden">
+                    <label for="wedstrijden">Wedstrijden</label><br>
+                    <input type="radio" id="anders" name="contact" value="anders">
+                    <label for="anders">Anders</label><br><br>
+
+                    <label for="naam">Naam</label><br>
+                    <input type="text" id="naam" name="naam" placeholder="Je voor- en achternaam.." size="30"><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Je e-mail" size="30"><br>
+
+                    <label for="telefoon">Telefoon</label><br>
+                    <input type="phone" id="telefoon" name="telefoon" placeholder="Je telefoonnummer" size="13"><br><br>
+
+                    <label for="textarea">Mijn vraag</label><br>
+                    <textarea name="textarea" placeholder="Typ je vraag" rows="10" cols="35"></textarea><br><br>
+
+                    <input class="button2" name="verzenden" type="submit" />
+                </form>
+            </div>
+        </form>
+    </main>
+    <aside class="aside">
+        <h3>Adres clubhuis</h3><br>
+        <p>Verlengde Aarkade 30, 2406 LB Alphen aan den Rijn<br>
+            Let op: Geen brievenbus voor post aanwezig!</p>
+        <h3>Postadres</h3><br>
+        <p>Postbus 2029, 2400CA Alphen aan den Rijn</p>
+        <h3>Contact</h3><br>
+        <p>info@wsvzegerplas.nl<br>
+            tel. 0172-476066</p>
+        <h3>Openingstijden</h3><br>
+        <p>Woensdagavond: <strong>tijdelijk gesloten</strong><br>
+            Zondagmmiddag: <strong>tijdelijk gesloten</strong></p>
+
+    </aside>
+    <footer class="footer">
+        <a href="https://nl-nl.facebook.com/wsvzegerplas" target="blank">
+            <img height="20" src="Images/facebook image.jpg">
+        </a>
+        <a href="https://twitter.com/wsvzegerplas" target="blank">
+            <img width="20" height="20" src="Images/twitter image.jpg">
+        </a>
+        <a href="https://www.instagram.com/wsvzegerplas/" target="blank">
+            <img width="20" height="20" src="Images/insta image.jpg">
+        </a>
+    </footer>
+</body>
+
+</html>
